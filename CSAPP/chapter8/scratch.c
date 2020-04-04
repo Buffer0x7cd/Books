@@ -3,8 +3,7 @@
 
 int main(void)
 {
-    char *b = "&";
-    char *c = "&";
-    printf("%d\n",(b == c));
-    
+    char *s = "quit";
+    printf("Size: %lu\n", sizeof("quit"));
+    return 0;   
 }
